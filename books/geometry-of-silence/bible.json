@@ -1,0 +1,255 @@
+{
+  "characters": [
+    {
+      "id": "halcyon_marks",
+      "name": "Halcyon Marks",
+      "role": "protagonist",
+      "arc": "Protagonist",
+      "voice": "seeks to engineer empathy through machinery — speaks in measured, technical clauses",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey-blue",
+        "hair_color": "thinning silver",
+        "age": "spans 1874–1953"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "ansel_marks",
+      "name": "Ansel Marks",
+      "role": "supporting",
+      "arc": "Father — wants to maintain order through silence",
+      "voice": "clipped, rhythmic, like a metronome",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "mercury-grey",
+        "hair_color": "black streaked with white",
+        "age": "40s in Ch01"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "iyla_petrov_marks",
+      "name": "Iyla Petrov Marks",
+      "role": "supporting",
+      "arc": "Mother — wants recognition for her intellect",
+      "voice": "sharp, academic, defensive",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "dark brown",
+        "hair_color": "black, tightly coiled",
+        "age": "30s in Ch01"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "nikola_tesla",
+      "name": "Nikola Tesla",
+      "role": "supporting",
+      "arc": "Mentor/Antagonist — wants absolute control over energy",
+      "voice": "grandiose, theatrical, intense",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "pale blue",
+        "hair_color": "jet black, swept back",
+        "age": "40s in Ch03"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "marta_vance",
+      "name": "Marta Vance",
+      "role": "supporting",
+      "arc": "First Wife — wants domestic warmth",
+      "voice": "soft, hesitant, often trailing off",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "chestnut",
+        "age": "20s in Ch05"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "elias_marks",
+      "name": "Elias Marks",
+      "role": "supporting",
+      "arc": "Son — wants paternal approval but feels abandoned",
+      "voice": "blunt, pious, resentful",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey-blue (inherited)",
+        "hair_color": "dark brown",
+        "age": "10s in Ch06"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "clara_marks",
+      "name": "Clara Marks",
+      "role": "supporting",
+      "arc": "Second Wife — wants companionship without intrusion",
+      "voice": "practical, dry, understated",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "hazel",
+        "hair_color": "grey, pulled back",
+        "age": "50s in Ch10"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "chicago_boarding_house",
+      "name": "Chicago Boarding House",
+      "description": "Smells of boiled cabbage and ozone, with walls thin enough to hear the neighbor’s piano tuning.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "columbian_exposition_grounds",
+      "name": "Columbian Exposition Grounds",
+      "description": "Roars with the smell of roasted peanuts and coal smoke, a chaotic carnival of light and noise.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "arizona_desert_outpost",
+      "name": "Arizona Desert Outpost",
+      "description": "Dry heat that cracks lips and paper alike, silent except for the wind rattling tin sheets.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "wilkes_barre_farmhouse",
+      "name": "Wilkes-Barre Farmhouse",
+      "description": "Damp stone and old wood, smelling of dried lavender and stagnation, a place of quiet decay.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Ansel teaches Halcyon to listen to the \"hum\" of a piano string to find its fault; Halcyon learns that sound has weight.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Iyla recites a lecture on electromagnetic theory to a room of sleeping children, establishing her belief that knowledge is power despite her gender.",
+      "setup_chapter": "ch02",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Halcyon apprentices with Tesla; they argue over resonance, with Tesla viewing it as control and Halcyon as communication.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch03",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Tesla’s public failure and Halcyon’s silent fix; Halcyon realizes his value lies in the background, not the spotlight.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch04",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Halcyon meets Marta in a library; he tries to describe her laugh using acoustic frequencies, confusing her.",
+      "setup_chapter": "ch05",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_06",
+      "description": "Marta’s death from influenza; Halcyon builds the first polygraph not to detect lies, but to record the cessation of her pulse.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch06",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_07",
+      "description": "The polygraph fails to capture the *quality* of her absence, only the data of her end; Halcyon’s grief is unmeasured.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch07",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_08",
+      "description": "During WWI, Halcyon designs the \"Grief Telegraph\"; he hopes it will connect soldiers to families, but it only transmits static and panic.",
+      "setup_chapter": "ch08",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_09",
+      "description": "Elias rejects his father’s inventions as soulless; Halcyon retreats into his work, believing complexity is safety.",
+      "setup_chapter": "ch09",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_10",
+      "description": "Halcyon marries Clara; she tolerates his machines but demands he stop talking about them, creating a new kind of silence.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch10",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_11",
+      "description": "Elias burns the patents; Halcyon watches the fire, realizing his life’s work has been consumed by the very entropy he tried to defy.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch11",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_12",
+      "description": "The accidental neural net is discovered by a graduate student; Halcyon denies authorship, protecting his son’s narrative.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch12",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_13",
+      "description": "Halcyon dictates his final letter, admitting that grief is not a signal to be decoded, but a space to be inhabited.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch13",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_14",
+      "description": "(resolution, ch14) Halcyon dies alone; the machines continue to tick, but no one listens to them.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "The quantification of grief",
+    "the isolation of genius",
+    "the failure of language",
+    "resonance versus memory."
+  ],
+  "voice": "Close third-person past tense, formally structured with the analytical precision of a technical manual, yet permeated by a lingering, melancholic irony that exposes the gap between Halcyon’s logical models and his emotional reality."
+}

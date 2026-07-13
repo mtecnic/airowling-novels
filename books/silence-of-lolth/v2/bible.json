@@ -1,0 +1,160 @@
+{
+  "characters": [
+    {
+      "id": "vespera",
+      "name": "Vespera",
+      "role": "protagonist",
+      "arc": "Priestess of the Spider Queen — seeks to prove her worth by answering a prayer —  — — age: 24\nActive Arc: In Chapter 7, Vespera secretly feeds a trapped surface-dweller during a ritual, an act of rebellion that saves the prisoner but exposes her to suspicion, driving the plot toward her discovery.",
+      "voice": "soft, hesitant, often trails off",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "violet",
+        "hair_color": "black"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "kaelen",
+      "name": "Kaelen",
+      "role": "supporting",
+      "arc": "Captain of the Guard, House Vael — wants to maintain the house’s dominance through fear —  — — age: 35\nActive Arc: In Chapter 5, Kaelen intercepts a rival scout alone, refusing Vespera’s counsel to retreat, which leads to a skirmish that raises the stakes for House Vael’s territorial integrity.",
+      "voice": "sharp, commanding, uses few words",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "silver"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "matron_yssra",
+      "name": "Matron Yssra",
+      "role": "supporting",
+      "arc": "Matriarch of House Vael — wants to expand territory by any means necessary —  — — age: 50\nActive Arc: In Chapter 9, Yssra orders the execution of a suspected traitor without evidence, demonstrating her ruthless pragmatism and forcing Vespera to realize the cost of obedience.",
+      "voice": "cold, precise, devoid of emotion",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "amber",
+        "hair_color": "white"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "lirien",
+      "name": "Lirien",
+      "role": "supporting",
+      "arc": "Apprentice priestess, House Thul — wants to undermine Vael through espionage —  — — age: 22\nActive Arc: In Chapter 11, Lirien sabotages the ventilation shafts in the lower depths, causing a thermal collapse that traps Vespera, forcing her to rely on her own skills rather than divine aid.",
+      "voice": "slippery, mocking, uses rhetorical questions",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "red"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "the_web_chamber",
+      "name": "The Web-Chamber",
+      "description": "A vast cavern where silk threads hum with magical resonance, smelling of ozone and dried blood.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_acid_lake",
+      "name": "The Acid Lake",
+      "description": "A subterranean pool of corrosive liquid, bubbling with a low, guttural roar that vibrates in the teeth.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "house_vael_s_keep",
+      "name": "House Vael’s Keep",
+      "description": "Carved from obsidian, cold to the touch, echoing with the footsteps of guards and the whisper of silk.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_lower_depths",
+      "name": "The Lower Depths",
+      "description": "Dark, humid tunnels where heat signatures bloom like flowers against the stone, smelling of damp earth and decay.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Vespera hears a prayer from a dying child, a sound she cannot ignore, planting the seed of doubt.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Kaelen reports increased activity from House Thul near the Acid Lake, hinting at impending conflict.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Vespera fails to perform a ritual correctly due to her distraction, revealing her inner turmoil to Matron Yssra.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch06",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Lirien confronts Vespera in the shadows, accusing her of weakness, forcing Vespera to defend her position physically.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch08",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Vespera discovers a hidden passage leading to the surface, a potential escape route that could also be a trap.",
+      "setup_chapter": "ch10",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_06",
+      "description": "The hidden passage is used by House Thul to launch an attack, catching Vespera’s house off guard.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch12",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_07",
+      "description": "Vespera must choose between saving the trapped child from the prayer or defending her house, choosing mercy over duty.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch14",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_08",
+      "description": "(resolution, ch15) Vespera is exiled but finds peace in the surface world, having lost her status but gained her humanity.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Duty versus compassion",
+    "the weight of silence",
+    "the corruption of absolute power."
+  ],
+  "voice": "Close third-person, past tense, observant and tactile, prioritizing thermal sensations and acoustic details over visual spectacle."
+}

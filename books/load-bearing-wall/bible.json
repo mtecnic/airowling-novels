@@ -1,0 +1,197 @@
+{
+  "characters": [
+    {
+      "id": "steve_roberts",
+      "name": "Steve Roberts",
+      "role": "protagonist",
+      "arc": "Protagonist — wants to fix the store to fix himself",
+      "voice": "defensive, jargon-laced when nervous, slowly becoming quieter",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "grey",
+        "age": "47"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "owen_roberts",
+      "name": "Owen Roberts",
+      "role": "supporting",
+      "arc": "Son — wants independence but craves Steve’s attention",
+      "voice": "sarcastic, tech-native, increasingly practical",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "black",
+        "age": "15"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "marla_roberts",
+      "name": "Marla Roberts",
+      "role": "supporting",
+      "arc": "Wife — wants peace and creative expression",
+      "voice": "dry, precise, understated",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "dark",
+        "age": "45"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "doug_miller",
+      "name": "Doug Miller",
+      "role": "supporting",
+      "arc": "Veteran Clerk — wants stability and respect —  — — Active Arc: Doug takes charge of the demolition crew when Steve freezes, revealing he knows the building’s structural secrets better than Steve knows his own son.",
+      "voice": "rambling, nostalgic, deeply loyal",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "hazel",
+        "hair_color": "white",
+        "age": "62"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "piper_bellamy",
+      "name": "Piper Bellamy",
+      "role": "supporting",
+      "arc": "Consultant — wants to prove her methodology works on any asset —  — — Active Arc: Piper arrives not to fire Steve, but to help him navigate the insurance claim, forcing her to confront the limitations of data in human crises.",
+      "voice": "upbeat, algorithmic, surprisingly vulnerable",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "blonde",
+        "age": "29"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "mei_lin_chen",
+      "name": "Mei-Lin Chen",
+      "role": "supporting",
+      "arc": "Stock Manager — wants recognition for her organizational genius —  — — Active Arc: Mei-Lin reorganizes the chaotic salvage site into a functional workflow, saving the project from total disarray when Steve and Owen argue.",
+      "voice": "soft-spoken, efficient, observant",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "dark",
+        "hair_color": "black",
+        "age": "34"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "the_flagship_store_toledo_oh",
+      "name": "The Flagship Store (Toledo, OH)",
+      "description": "A cavernous 1970s big-box structure smelling of wet drywall dust and ozone after the collapse, now a skeleton of exposed beams.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "steve_s_kitchen",
+      "name": "Steve’s Kitchen",
+      "description": "Cluttered with unpaid bills and Marla’s rejected manuscript drafts, smelling of stale coffee and unresolved arguments.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "owen_s_bedroom",
+      "name": "Owen’s Bedroom",
+      "description": "A fortress of LED strips and gaming peripherals, smelling of energy drinks and adolescent isolation.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "torrid_home_regional_office",
+      "name": "Torrid Home Regional Office",
+      "description": "A glass-walled minimalist space in Columbus, smelling of expensive leather and cold air conditioning.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "The roof collapses during a routine inventory check, trapping Steve and Doug in the aisles.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Owen films Steve’s breakdown in the parking lot; the video goes viral, stripping Steve of his dignity.",
+      "setup_chapter": "ch02",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Steve buys work boots and quits his daily role, declaring a \"sabbatical\" to rebuild the store with Owen.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch05",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "The first week fails catastrophically; Steve and Owen argue over blueprints, leading to a minor injury for Steve.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch07",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Doug reveals the original building plans were hand-drawn and hidden in the store’s old filing cabinet.",
+      "setup_chapter": "ch09",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_06",
+      "description": "Owen discovers a talent for drywalling, finding a calm focus he hasn’t had since childhood.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch11",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_07",
+      "description": "A surprise electrical inspection threatens to shut down the partial rebuild; Steve must choose between corporate compliance and DIY improvisation.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch13",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_08",
+      "description": "(resolution, ch15) The store reopens smaller, with a new layout; Steve accepts that he cannot save everything, but he saved the core.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "The architecture of masculinity",
+    "the illusion of control",
+    "intergenerational repair",
+    "the value of visible labor."
+  ],
+  "voice": "Close third-person, past tense; a comedic-literary register that balances the absurdity of mid-American corporate culture with the tender, awkward reality of familial love."
+}

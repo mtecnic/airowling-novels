@@ -1,0 +1,180 @@
+{
+  "characters": [
+    {
+      "id": "vera_novakova",
+      "name": "Vera Novakova",
+      "role": "protagonist",
+      "arc": "Protagonist",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "dark",
+        "age": "26"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "jiri_dvorak",
+      "name": "Jiri Dvorak",
+      "role": "supporting",
+      "arc": "American journalist",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "blond",
+        "age": "34"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "elena_novakova",
+      "name": "Elena Novakova",
+      "role": "supporting",
+      "arc": "Vera’s mother",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "grey",
+        "age": "58"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "colonel_hanzl",
+      "name": "Colonel Hanzl",
+      "role": "supporting",
+      "arc": "Ministry official / Interrogator",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "black",
+        "age": "45"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "lukas",
+      "name": "Lukas",
+      "role": "supporting",
+      "arc": "Underground courier",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "light brown",
+        "age": "22"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "vera_s_flat_old_town",
+      "name": "Vera’s Flat (Old Town)",
+      "description": "A cramped apartment above a printer’s shop, smelling of wet ink and stale tobacco, with peeling wallpaper that mirrors the crumbling political facade.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "ministry_of_culture",
+      "name": "Ministry of Culture",
+      "description": "A brutalist concrete building near Wenceslas Square, echoing with the hollow clatter of typewriters and the damp chill of unheated corridors.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_caf_louvre",
+      "name": "The Café Louvre",
+      "description": "A historic café where Jiri meets Vera, smelling of roasted beans and old wood, a space of relative warmth before the cold sets in.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "karlovy_vary_train_station",
+      "name": "Karlovy Vary Train Station",
+      "description": "A transit hub of steam and confusion, smelling of coal dust and fear, where travelers move like ghosts in the fog.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_border_checkpoint_cheb",
+      "name": "The Border Checkpoint (Cheb)",
+      "description": "A stark military outpost smelling of diesel and rain, dominated by the glare of floodlights and the rigid posture of soldiers.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Vera translates a innocuous poem for Jiri, unaware it contains coded references to the satchel’s contents.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Jiri hands Vera the leather satchel, warning her that paper is heavier than lead; she hides it under floorboards.",
+      "setup_chapter": "ch05",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "The tanks arrive; Vera watches from her window as the sky turns grey with smoke, realizing her translation work is now treason.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch07",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "The Ministry purges its staff; Vera is suspended not for the manuscript, but for her \"Western associations,\" isolating her completely.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch09",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Colonel Hanzl visits Vera’s mother, not demanding the book, but asking about Vera’s loneliness, implying he holds the power to make her life unbearable or empty.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch11",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_06",
+      "description": "At the border checkpoint, Vera must decide whether to burn the manuscript to prove her innocence or carry it and risk execution; she chooses to carry it, but Lukas is caught with a duplicate, revealing her route.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch14",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_07",
+      "description": "(resolution, ch15) Vera escapes into the woods, leaving the satchel behind to save herself, keeping only a single page in her pocket, a fragment of the whole.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "The ethics of preservation versus survival",
+    "the erosion of trust in bureaucratic language",
+    "the geography of displacement."
+  ],
+  "voice": "Close third-person, past tense, restrained and atmospheric, focusing on the tactile reality of objects and the chilling silence of occupied spaces."
+}

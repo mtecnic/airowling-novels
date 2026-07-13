@@ -1,0 +1,161 @@
+{
+  "characters": [
+    {
+      "id": "k_liira",
+      "name": "K’liira",
+      "role": "protagonist",
+      "arc": "novice priestess — wants to hear her goddess again —  — — age: 19\nActive Arc: During the Trial of Whispers, K’liira deliberately breaks her vow of silence to expose the High Priestess’s corruption, driving the climax forward without prior warning.",
+      "voice": "quiet, precise",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "violet",
+        "hair_color": "black"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "vesryn",
+      "name": "Vesryn",
+      "role": "supporting",
+      "arc": "rival acolyte from House Do’Urden — wants K’liira’s position —  — — age: 21\nActive Arc: Vesryn sabotages K’liira’s ritual supplies during the Second Descent, forcing K’liira to improvise with dangerous magic, escalating the threat independently of K’liira’s plans.",
+      "voice": "sharp, mocking",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "white-blonde"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "matron_malice",
+      "name": "Matron Malice",
+      "role": "supporting",
+      "arc": "High Priestess of House Do’Urden — wants absolute control —  — — age: 45\nActive Arc: Matron Malice orders the execution of a slave child to test K’liira’s loyalty, creating the moral dilemma that defines the midpoint crisis.",
+      "voice": "cold, commanding",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "black",
+        "hair_color": "black"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "zaknafein_s_shadow",
+      "name": "Zaknafein’s Shadow",
+      "role": "supporting",
+      "arc": "ancient spirit guide — wants redemption —  — — age: unknown\nActive Arc: The spirit manifests during the First Descent to block a trap meant for K’liira, revealing the existence of a hidden path that changes the plot’s direction.",
+      "voice": "gravelly, distant",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "none (heat signature only)",
+        "hair_color": "none"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "drizzt_s_echo",
+      "name": "Drizzt’s Echo",
+      "role": "supporting",
+      "arc": "rogue drow ranger — wants freedom —  — — age: 30\nActive Arc: Drizzt’s Echo intercepts an assassin sent by Vesryn in Chapter 8, saving K’liira but revealing his presence to the House guards, raising the stakes.",
+      "voice": "terse, pragmatic",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "violet",
+        "hair_color": "black"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "house_do_urden_temple",
+      "name": "House Do’Urden Temple",
+      "description": "a cavern of obsidian and blood-stained silk, smelling of iron and ozone.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_acid_lake",
+      "name": "The Acid Lake",
+      "description": "a bubbling expanse of green sludge, radiating intense heat and stench of sulfur.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_web_of_whispers",
+      "name": "The Web of Whispers",
+      "description": "a network of underground tunnels lined with glowing fungi, sounding like distant weeping.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_mirror_chamber",
+      "name": "The Mirror Chamber",
+      "description": "a room of polished basalt reflecting distorted heat signatures, feeling cold and oppressive.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "K’liira hears a prayer from a dying slave, ignoring the goddess’s silence.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_02",
+      "description": "Vesryn challenges K’liira’s piety during a public ritual.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_03",
+      "description": "K’liira refuses the blood sacrifice, causing a magical backlash.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch07",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Matron Malice orders the slave child’s execution to test K’liira.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch10",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "The ancient spirit reveals the hidden path during the Third Descent.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch13",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_06",
+      "description": "K’liira breaks her vow in the Trial of Whispers to save the child.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "climax"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Faith vs. dogma",
+    "the cost of silence",
+    "power through vulnerability"
+  ],
+  "voice": "Close third-person limited, shifting between K’liira and her rival, with a focus on thermal imagery and tactile sensations."
+}

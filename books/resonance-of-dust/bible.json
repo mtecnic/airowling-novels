@@ -1,0 +1,173 @@
+{
+  "characters": [
+    {
+      "id": "william_buck",
+      "name": "William Buck",
+      "role": "protagonist",
+      "arc": "Deputy US Marshal — wants to uphold the law without becoming a tyrant —  — — Active Arc: In Chapter 7, Buck refuses to arrest Rose Aoyama despite having probable cause, choosing to protect the leak over protocol, thereby crossing the line from observer to accomplice.",
+      "voice": "gravelly, economical",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "black with grey temples",
+        "age": "34"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "dalton_voss",
+      "name": "Dalton Voss",
+      "role": "supporting",
+      "arc": "Industrialist and antagonist — wants total civic compliance through engineered consent —  — — Active Arc: In Chapter 5, Voss independently negotiates the final water rights purchase using intimidation tactics that Buck did not authorize, demonstrating his willingness to bypass legal channels entirely.",
+      "voice": "precise, academic, devoid of warmth",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "pale blue",
+        "hair_color": "silver",
+        "age": "45"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "rose_aoyama",
+      "name": "Rose Aoyama",
+      "role": "supporting",
+      "arc": "Camp engineer and archivist — wants to preserve the truth of the frequency charts —  — — Active Arc: In Chapter 9, Rose deliberately leaves the master tuning key on a workbench in plain sight, forcing Buck’s hand to act before Voss recalibrates the array for Tucson.",
+      "voice": "quiet, technical, hesitant",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "dark brown",
+        "hair_color": "black, cut short",
+        "age": "28"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "sheriff_elias_thorne",
+      "name": "Sheriff Elias Thorne",
+      "role": "supporting",
+      "arc": "Local law enforcement — wants to avoid conflict with Voss to keep Cottonwood Wash prosperous —  — — Active Arc: In Chapter 11, Thorne actively blocks Buck’s attempt to seize the equipment, citing jurisdictional ambiguity, proving that the local establishment has already been compromised.",
+      "voice": "weary, pragmatic, evasive",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "white",
+        "age": "50"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "silas_voss",
+      "name": "Silas Voss",
+      "role": "supporting",
+      "arc": "Dalton’s brother and head of security — wants to eliminate threats to his brother’s project —  — — Active Arc: In Chapter 13, Silas ambushes Buck in the canyon, not to kill him, but to break his favored leg, establishing that Voss prefers crippling over martyrdom.",
+      "voice": "silent, threatening, physical",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "dark",
+        "hair_color": "black",
+        "age": "38"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "cottonwood_wash_deputy_office",
+      "name": "Cottonwood Wash Deputy Office",
+      "description": "A single-room adobe structure where the desk doubles as a bed; smells of stale tobacco and dried sage, sounds of wind rattling the loose window pane.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "voss_construction_camp",
+      "name": "Voss Construction Camp",
+      "description": "A fenced perimeter of canvas tents and wooden crates; smells of ozone, hot metal, and unwashed bodies; hums with a low-frequency vibration that rattles teeth.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_aquifer_access_point",
+      "name": "The Aquifer Access Point",
+      "description": "A concrete-lined well shaft near the riverbank; smells of damp earth and copper; feels slick and cold underfoot.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "grissom_s_wells_town_hall",
+      "name": "Grissom’s Wells Town Hall",
+      "description": "A modest wooden hall with peeling paint; smells of dust and old paper; echoes with the unnatural silence of a crowd that has forgotten how to argue.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Buck observes Voss’s wagons arriving, noting the strange weight of the crates and the lack of standard lumber.",
+      "setup_chapter": "ch02",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Buck witnesses the first water-rights signing in Grissom’s Wells; the rancher signs willingly, though he previously opposed the sale.",
+      "setup_chapter": "ch04",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Rose hands Buck the frequency charts, revealing the mechanism of control; Buck realizes the law has no category for this crime.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch07",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Buck attempts to arrest Voss, but Sheriff Thorne intervenes, citing federal contracts, leaving Buck powerless and isolated.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch09",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Buck infiltrates the main resonance chamber during a storm, realizing Voss is preparing to broadcast the signal to Tucson.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch12",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_06",
+      "description": "Buck destroys the primary amplifier, causing a feedback loop that shatters the copper pipes and deafens the workers, breaking the spell.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch14",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_07",
+      "description": "(resolution, ch15) Voss is arrested for the destruction of property, not the coercion; Buck loses his badge for insubordination but saves the territory’s soul.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Industrial coercion vs. individual liberty",
+    "the invisibility of modern power",
+    "the cost of order in a lawless land."
+  ],
+  "voice": "Close third-person, past tense; sparse, rhythmic, and grounded in tactile sensation, blending the lean dialogue of Leonard with the moral gravity and elemental imagery of McCarthy."
+}

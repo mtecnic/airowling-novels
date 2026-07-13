@@ -1,0 +1,254 @@
+{
+  "characters": [
+    {
+      "id": "concetta_ricci",
+      "name": "Concetta Ricci",
+      "role": "protagonist",
+      "arc": "Protagonist, 43, postal clerk — wants to understand why Andrea wrote if he never came back",
+      "voice": "precise, internal, avoids direct eye contact",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "dark",
+        "age": "43"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "active_arc",
+      "name": "Active Arc",
+      "role": "supporting",
+      "arc": "In Chapter 8, Concetta secretly visits the harbor master to ask about ship manifests, hiding her inquiry from Enzo, revealing her growing distrust of her current life.",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {},
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "enzo_marino",
+      "name": "Enzo Marino",
+      "role": "supporting",
+      "arc": "Husband, 45, widower fisherman — wants to keep the peace and protect his stepchildren",
+      "voice": "gruff, practical, uses few words",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "salt-and-pepper",
+        "age": "45"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "active_arc",
+      "name": "Active Arc",
+      "role": "supporting",
+      "arc": "In Chapter 10, Enzo catches Concetta reading the second letter and throws it into the sea without asking what it says, asserting his control through silence rather than violence.",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {},
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "padre_salvatore",
+      "name": "Padre Salvatore",
+      "role": "supporting",
+      "arc": "Parish priest, 60 — wants to maintain the village’s narrative of heroic sacrifice",
+      "voice": "soft, melodic, patronizing",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "white",
+        "age": "60"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "active_arc",
+      "name": "Active Arc",
+      "role": "supporting",
+      "arc": "In Chapter 9, Padre Salvatore confronts Concetta at the church door, warning her that digging up the past is an act of vanity, not piety, driving her toward isolation.",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {},
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "nonna_rosa",
+      "name": "Nonna Rosa",
+      "role": "supporting",
+      "arc": "Mother-in-law, 72 — wants to preserve Andrea’s memory as perfect",
+      "voice": "sharp, repetitive, accusatory",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "clouded",
+        "hair_color": "white",
+        "age": "72"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "active_arc",
+      "name": "Active Arc",
+      "role": "supporting",
+      "arc": "In Chapter 12, Nonna Rosa discovers the letters and burns one in front of Concetta, forcing Concetta to physically intervene and save the final piece of evidence.",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {},
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "luca",
+      "name": "Luca",
+      "role": "supporting",
+      "arc": "Andrea’s eldest son from his first marriage, 19 — wants to leave the village",
+      "voice": "cynical, quick-witted",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "black",
+        "age": "19"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "active_arc",
+      "name": "Active Arc",
+      "role": "supporting",
+      "arc": "In Chapter 11, Luca helps Concetta decode a cipher in the third letter, motivated by his own desire to escape the village, aligning his rebellion with her quest.",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {},
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "la_posta",
+      "name": "La Posta",
+      "description": "The village post office — smells of damp paper and stale tobacco; the air is thick with dust motes dancing in shafts of light.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "la_barca",
+      "name": "La Barca",
+      "description": "Enzo’s fishing boat, *La Speranza* — smells of brine, rust, and wet canvas; the wood groans under the tension of the tide.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "casa_marino",
+      "name": "Casa Marino",
+      "description": "The family home in the village center — smells of dried oregano and simmering tomato sauce; the tiles are cool and hard beneath bare feet.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "il_cimitero",
+      "name": "Il Cimitero",
+      "description": "The cemetery on the hill overlooking the bay — smells of cypress resin and dry earth; the wind carries the distant sound of waves crashing against cliffs.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Concetta sorts mail and finds the first letter addressed to \"Andrea Marino, Deceased\" — introduces the anomaly.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Concetta reads the letter; it mentions a Marseille address and a date from 1950 — raises the question of survival.",
+      "setup_chapter": "ch02",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Flashback: Summer 1942, Andrea packing his bags, the tension of departure — establishes the love and the fear.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_04",
+      "description": "The second letter arrives; it contains a photograph of Andrea, older, in Palermo — forces Concetta to acknowledge he lived without her.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch05",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_05",
+      "description": "Concetta visits Padre Salvatore to ask about the death certificate; he dismisses her concerns — shifts conflict from mystery to institutional gaslighting.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch07",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_06",
+      "description": "Concetta asks the harbor master about ships; he refuses to speak — confirms the cover-up is widespread.",
+      "setup_chapter": "ch08",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_07",
+      "description": "Enzo throws the second letter into the sea — raises the stakes of domestic conflict.",
+      "setup_chapter": "ch10",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_08",
+      "description": "Nonna Rosa burns one letter; Concetta saves the final one, leading to a silent, devastating confrontation with Enzo — the point of no return.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch12",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_09",
+      "description": "Concetta decodes the final letter’s coordinates; she decides not to go, but to write back — resolves the internal conflict.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch14",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_10",
+      "description": "Concetta sends the letter to Palermo and burns her own journals — accepts the ambiguity of her life.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "climax"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Memory as distortion",
+    "the silence of women’s labor",
+    "the illusion of closure."
+  ],
+  "voice": "Close third person, past tense, restrained and observant, focusing on the tactile weight of objects and the suffocating humidity of the Mediterranean summer."
+}

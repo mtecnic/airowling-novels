@@ -1,0 +1,182 @@
+{
+  "characters": [
+    {
+      "id": "pearl_casey",
+      "name": "Pearl Casey",
+      "role": "protagonist",
+      "arc": "protagonist — wants to prove she is more than her father’s daughter",
+      "voice": "sharp, clipped, uses humor as armor",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "auburn",
+        "age": "29"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "sergeant_michael_doyle",
+      "name": "Sergeant Michael Doyle",
+      "role": "supporting",
+      "arc": "supporting ally/NYPD — wants to keep his precinct clean but is bound by bureaucracy —  — — Active Arc: Doyle intercepts a warrant served to Pearl by Halloway, burning it to buy her time, driven by his own guilt over failing to protect her father initially.",
+      "voice": "weary, gravelly, uses Irish lilt sparingly",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "black",
+        "age": "45"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "silas_vane",
+      "name": "Silas Vane",
+      "role": "supporting",
+      "arc": "supporting antagonist/Industrialist — wants to monopolize transit contracts —  — — Active Arc: Vane attempts to bribe Pearl with a job offer at the new depot, trying to co-opt her skills, unaware she is investigating his former partners.",
+      "voice": "smooth, aristocratic, never raises volume",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "platinum",
+        "age": "52"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "astrid_blackwell",
+      "name": "Astrid Blackwell",
+      "role": "supporting",
+      "arc": "supporting antagonist/Widow/Syndicate Head — wants to maintain her empire through silence —  — — Active Arc: Astrid hosts a charity gala where she publicly humiliates Pearl, using social etiquette as a weapon to isolate her before the physical attack.",
+      "voice": "cold, precise, mournful",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "silver",
+        "age": "54"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "elena_rossi",
+      "name": "Elena Rossi",
+      "role": "supporting",
+      "arc": "supporting ally/Seamstress — wants to feed her children —  — — Active Arc: Elena recognizes the specific stitching pattern on Pearl’s father’s coat in her shop window display, realizing the danger she is in, and locks her doors.",
+      "voice": "rapid, anxious, Italian cadence",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "hazel",
+        "hair_color": "black",
+        "age": "34"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "man_in_grey_coat",
+      "name": "Man in Grey Coat",
+      "role": "supporting",
+      "arc": "supporting antagonist/Enforcer — wants to execute orders silently —  — — Active Arc: The Man in Grey Coat stalks Pearl through the subway tunnels, not attacking immediately but forcing her to take a longer, more dangerous route home.",
+      "voice": "flat, detached, uses abstract metaphors",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "grey",
+        "age": "40"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "grand_central_depot",
+      "name": "Grand Central Depot",
+      "description": "A cathedral of iron and glass; the smell of ozone and expensive tobacco clings to the marble steps where the body was found.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "astrid_blackwell_s_townhouse",
+      "name": "Astrid Blackwell’s Townhouse",
+      "description": "Fifth Avenue opulence; the air is thick with the scent of beeswax and stale lilies, muffling sound.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "elena_s_tenement_basement",
+      "name": "Elena’s Tenement Basement",
+      "description": "Cramped and damp; the smell of boiled cabbage and wet wool hangs heavy in the single room.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "wall_street_rooftop",
+      "name": "Wall Street Rooftop",
+      "description": "Wind-battered and cold; the smell of coal smoke and river mud rises from the streets far below.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Pearl finds her father dying; the blood-written name \"Astrid Blackwell\" is planted.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Pearl examines the knot; realizes it is a signature of the syndicate’s original master, not Vane.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Pearl is attacked in the theater; the attacker wears gloves indoors, signaling the Man in Grey Coat.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch06",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Pearl discovers her father wasn’t hunting Blackwell; he was protecting her from the inside.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch09",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Pearl confronts Astrid on the rooftop; the truth about the knot’s origin is revealed.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch14",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_06",
+      "description": "Pearl burns the evidence, choosing to let the law fail rather than expose her father’s secret compromise.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "payoff"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Legacy versus autonomy",
+    "the commodification of grief",
+    "the illusion of safety in high society."
+  ],
+  "voice": "Close third-person past tense, clipped and observant, filtering forensic detail through the lens of textile analysis and urban decay."
+}

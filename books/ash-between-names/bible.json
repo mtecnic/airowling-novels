@@ -1,0 +1,166 @@
+{
+  "characters": [
+    {
+      "id": "wren_halloway",
+      "name": "Wren Halloway",
+      "role": "protagonist",
+      "arc": "protagonist — wants to honor her father’s legacy while maintaining control over the funeral home’s future",
+      "voice": "precise, guarded, speaks in short, measured sentences",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "gray",
+        "hair_color": "black",
+        "age": "38"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "elias_halloway",
+      "name": "Elias Halloway",
+      "role": "supporting",
+      "arc": "father (deceased) — wanted to protect his family from financial ruin by any means necessary",
+      "voice": "known only through ledger entries and Wren’s memories, pragmatic, coldly efficient",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "white",
+        "age": "68"
+      },
+      "secrets": [],
+      "alive_until_chapter": "ch00"
+    },
+    {
+      "id": "silas_halloway",
+      "name": "Silas Halloway",
+      "role": "supporting",
+      "arc": "uncle/business partner — wants to keep the funeral home profitable and the secret buried —  — — Active Arc: Silas physically blocks Wren from accessing the secondary archive room in Chapter 9, claiming the floor is unstable, forcing Wren to realize he is actively hiding evidence rather than just covering tracks.",
+      "voice": "loud, defensive, uses humor to deflect",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "gray",
+        "age": "55"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "maeve_collins",
+      "name": "Maeve Collins",
+      "role": "supporting",
+      "arc": "widow of a victim whose body was sold — wants closure for her husband’s disappearance —  — — Active Arc: Maeve confronts Wren in Chapter 11 not with anger, but with a quiet question about her husband’s hands, revealing she suspected the ash was wrong all along, shifting the power dynamic.",
+      "voice": "soft, hesitant, often trails off",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "blonde",
+        "age": "42"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "dr_aris_thorne",
+      "name": "Dr. Aris Thorne",
+      "role": "supporting",
+      "arc": "contact at the Birmingham medical school — wants to maintain the supply chain of cadavers —  — — Active Arc: Dr. Thorne provides Wren with the shipping manifests in Chapter 12 without prompting, recognizing the ethical rot and hoping Wren will be the one to clean it up, driving the plot toward exposure.",
+      "voice": "clinical, detached, polite but firm",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "hazel",
+        "hair_color": "balding",
+        "age": "50"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "halloway_funeral_home",
+      "name": "Halloway Funeral Home",
+      "description": "a Victorian house on the edge of town, smelling of formaldehyde and stale lilies, where the air feels heavier than outside.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_timber_mill",
+      "name": "The Timber Mill",
+      "description": "a rusted industrial complex on the riverbank, emitting a sharp scent of burning pine and wet rot, located behind the crematory.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "birmingham_medical_archives",
+      "name": "Birmingham Medical Archives",
+      "description": "a sterile, windowless basement storage unit, humming with the low vibration of refrigeration units and smelling of ozone and old paper.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_unmarked_grave_site",
+      "name": "The Unmarked Grave Site",
+      "description": "a patch of overgrown kudzu behind the crematory, damp and silent, where the earth smells of deep, cold clay.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Wren finds the first discrepancy in the ledger — a payment for a mahogany urn marked \"delivered\" next to a name she recognizes.",
+      "setup_chapter": "ch02",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Silas warns Wren to stick to routine duties, mentioning that \"some doors shouldn't be opened\" while polishing brass fixtures.",
+      "setup_chapter": "ch04",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Wren visits Maeve Collins under the guise of an anniversary check-in; Maeve reveals she has kept the urn because it is too light, establishing the physical proof of the fraud.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch07",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Silas confronts Wren in the archive room, accusing her of trying to destroy the business, revealing his own deep financial dependence on the illicit income.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch09",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Dr. Thorne provides the Birmingham manifests, confirming that 47 bodies were sold over 20 years, not just the few Wren suspected.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch12",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_06",
+      "description": "Wren stands before the town council with the ledger, forced to choose between Silas’s plea to \"let the dead rest\" and her duty to the truth.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch14",
+      "kind": "climax"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "moral inheritance",
+    "the commodification of grief",
+    "silence as complicity"
+  ],
+  "voice": "Third-person limited on Wren, spare and weighted, with a Southern cadence that favors concrete physical details over sentimental abstraction."
+}

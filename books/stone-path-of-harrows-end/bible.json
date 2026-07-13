@@ -1,0 +1,195 @@
+{
+  "characters": [
+    {
+      "id": "ilse_vane",
+      "name": "Ilse Vane",
+      "role": "protagonist",
+      "arc": "protagonist — wants to keep her farm profitable and safe —  — — Active Arc: In Chapter 7, Ilse refuses the Baron’s foreman’s offer of payment to remove the waystones, choosing integrity over immediate security.",
+      "voice": "practical, terse, observant",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "brown",
+        "age": "26"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "uncle_eamon",
+      "name": "Uncle Eamon",
+      "role": "supporting",
+      "arc": "deceased — left the road as a burden —  — — Active Arc: His ledger entries in Chapter 4 reveal he did not just maintain the road; he actively turned away those who sought to stop the travelers’ progress.",
+      "voice": "recorded in ledger as stoic, silent",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "unknown",
+        "hair_color": "white",
+        "age": "58 (at death)"
+      },
+      "secrets": [],
+      "alive_until_chapter": "ch00"
+    },
+    {
+      "id": "baron_kaelen_s_foreman_torvin",
+      "name": "Baron Kaelen’s Foreman, Torvin",
+      "role": "antagonist",
+      "arc": "antagonist — wants the stones for his lord’s new hall —  — — Active Arc: In Chapter 6, Torvin personally dismantles a waystone at dawn, testing Ilse’s resolve without waiting for her permission.",
+      "voice": "bureaucratic, dismissive, sharp",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "black",
+        "age": "40"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "the_traveler_jaren",
+      "name": "The Traveler, Jaren",
+      "role": "supporting",
+      "arc": "catalyst — seeks passage north despite the danger —  — — Active Arc: In Chapter 9, Jaren reveals the nature of the \"thing\" following them, driving Ilse to understand the true cost of the road.",
+      "voice": "weary, precise, lacking fear",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "dark",
+        "hair_color": "black",
+        "age": "30"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "young_elara",
+      "name": "Young Elara",
+      "role": "supporting",
+      "arc": "innocent — wants to see the sea —  — — Active Arc: In Chapter 8, Elara’s illness forces Ilse to make a medical decision that violates the road’s quarantine rules.",
+      "voice": "curious, fragile, honest",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "blonde",
+        "age": "8"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "harrow_s_end_farm",
+      "name": "Harrow’s End Farm",
+      "description": "a smallholding of stubborn earth and wind-bent wheat, smelling of damp soil and woodsmoke.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_pilgrim_s_road",
+      "name": "The Pilgrim’s Road",
+      "description": "a cracked stone path winding through hollows, marked by standing stones that hum with cold air.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "uncle_eamon_s_cottage",
+      "name": "Uncle Eamon’s Cottage",
+      "description": "a low stone hut near the road’s start, filled with dust and the smell of dried herbs and old paper.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_baron_s_keep",
+      "name": "The Baron’s Keep",
+      "description": "a distant silhouette on the hill, cold and imposing, smelling of iron and burnt coal.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_northern_shore",
+      "name": "The Northern Shore",
+      "description": "a desolate coastline visible only in legend, where the road ends in salt and silence.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Ilse receives the deed to the road, assuming it is worthless land.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch18",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Ilse finds Uncle Eamon’s ledger, noting dates of travelers who never returned.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch18",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "(inciting incident, ch04) A bruised traveler asks the way, breaking the seven-year silence.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch18",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_04",
+      "description": "(rising action, ch06) Torvin begins removing waystones; Ilse confronts him, realizing the road’s protection is failing.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch18",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_05",
+      "description": "Elara falls ill; Ilse must choose between the road’s sanctity and her daughter’s life.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch08",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_06",
+      "description": "Jaren reveals the \"thing\" is not a monster, but a consequence of the road’s neglect.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch10",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_07",
+      "description": "Ilse stands at the final waystone, blocking the Baron’s men and the advancing shadow.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch13",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_08",
+      "description": "The road holds, but Ilse loses her home to the Baron’s claim.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_09",
+      "description": "(epilogue, ch18) The road continues, empty but intact, carrying the memory of those who walked it.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch18",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Duty versus survival",
+    "the weight of history",
+    "the morality of isolation",
+    "the persistence of memory in silence."
+  ],
+  "voice": "Third-person limited, past tense, measured and austere, rendering landscape as moral geography with aphoristic precision."
+}

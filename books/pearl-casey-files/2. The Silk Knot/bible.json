@@ -1,0 +1,212 @@
+{
+  "characters": [
+    {
+      "id": "pearl_casey",
+      "name": "Pearl Casey",
+      "role": "protagonist",
+      "arc": "protagonist — wants to prove her worth beyond her father’s shadow —  — — Active Arc: Pearl chooses to burn her own dossier to protect Doyle, sacrificing her career’s safety for a moral imperative she didn’t plan.",
+      "voice": "sharp, clipped, uses humor as armor",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "auburn",
+        "age": "29"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "sergeant_michael_doyle",
+      "name": "Sergeant Michael Doyle",
+      "role": "supporting",
+      "arc": "supporting ally/NYPD — wants to keep his precinct clean but is bound by bureaucracy —  — — Active Arc: Doyle deliberately delays the arrest warrant for Elena Rossi, creating a window for Pearl to find the truth, driven by his own hidden guilt.",
+      "voice": "weary, gravelly, uses Irish lilt sparingly",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "black",
+        "age": "45"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "silas_vane",
+      "name": "Silas Vane",
+      "role": "supporting",
+      "arc": "supporting antagonist/Industrialist — wants to monopolize transit contracts —  — — Active Arc: Vane visits Pearl’s apartment unannounced to deliver a single spool of red thread, establishing his presence without violence, asserting dominance through intimacy.",
+      "voice": "smooth, aristocratic, never raises volume",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "platinum",
+        "age": "52"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "lao_wei",
+      "name": "Lao Wei",
+      "role": "supporting",
+      "arc": "supporting Chinatown apothecary — wants to protect his community from gang violence —  — — Active Arc: Wei identifies the silk cord as ceremonial wedding thread, not industrial waste, shifting the investigation from crime to ritual, forcing Pearl to rethink the killer’s motive.",
+      "voice": "cryptic, polite, speaks in riddles",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "black",
+        "age": "60"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "elena_rossi",
+      "name": "Elena Rossi",
+      "role": "supporting",
+      "arc": "supporting immigrant seamstress — wants to feed her children —  — — Active Arc: Elena refuses to flee when offered protection, choosing to stand trial to clear her name, driving the climax by confronting the accuser directly.",
+      "voice": "rapid, anxious, Italian cadence",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "hazel",
+        "hair_color": "black",
+        "age": "34"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "man_in_grey_coat",
+      "name": "Man in Grey Coat",
+      "role": "supporting",
+      "arc": "supporting antagonist/enforcer — wants to execute orders silently —  — — Active Arc: The Man in Grey Coat ambushes Pearl in the subway tunnel, not to kill her, but to steal a specific ledger page, revealing the true target of the conspiracy.",
+      "voice": "flat, detached, uses abstract metaphors",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "grey",
+        "age": "40"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "captain_halloway",
+      "name": "Captain Halloway",
+      "role": "supporting",
+      "arc": "supporting antagonist/corrupt official — wants to bury the scandal to protect political donors —  — — Active Arc: Halloway summons Pearl to his office and offers her a promotion if she drops the case, testing her integrity in a private, high-stakes confrontation.",
+      "voice": "formal, bureaucratic, condescending",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "white",
+        "age": "58"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "chatham_square_signal_shed",
+      "name": "Chatham Square Signal Shed",
+      "description": "A rusted metal box overlooking the tracks, smelling of ozone and wet iron, where the foreman’s body was found.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "pearl_s_apartment",
+      "name": "Pearl’s Apartment",
+      "description": "A small walk-up above a bakery, perpetually smelling of stale tobacco and lemon polish, cluttered with case files.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "lao_wei_s_apothecary",
+      "name": "Lao Wei’s Apothecary",
+      "description": "A dim shop in Chinatown, heavy with the scent of dried ginseng and damp earth, shelves lined with glass jars.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_elevated_train_car",
+      "name": "The Elevated Train Car",
+      "description": "A rattling steel cage above street level, vibrating with the rhythm of the city, smelling of coal smoke and unwashed wool.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "halloway_s_office",
+      "name": "Halloway’s Office",
+      "description": "A spacious room in Police Headquarters, air-conditioned by fans, smelling of peppermint and expensive leather, dominated by a large oak desk.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Pearl finds the silk cord on the victim’s wrists, noting its unusual quality.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Lao Wei identifies the thread as wedding silk, hinting at a personal motive.",
+      "setup_chapter": "ch05",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Pearl discovers the Pinkerton badge is a forgery linked to Captain Halloway’s donor.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch08",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Doyle is seen meeting with the Man in Grey Coat, suggesting betrayal.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch10",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Pearl confronts Halloway in the signal shed while the Man in Grey Coat attacks.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch13",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_06",
+      "description": "Doyle reveals he was being blackmailed by Halloway, providing the final evidence.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch14",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_07",
+      "description": "(resolution, ch15) Pearl arrests Halloway but loses her badge for acting outside protocol; Doyle is transferred.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "corruption in plain sight",
+    "the weight of legacy",
+    "trust versus survival"
+  ],
+  "voice": "Close third, past tense, anchored in Pearl’s tactile and olfactory senses, with clipped rhythm and dry, observational wit."
+}

@@ -1,0 +1,150 @@
+{
+  "characters": [
+    {
+      "id": "nemo",
+      "name": "Nemo",
+      "role": "protagonist",
+      "arc": "Protagonist — wants to sink the slaving fleet regardless of cost —  — Active Arc: In Chapter 10, Nemo refuses medical aid to Broussard during the storm to maintain operational security, choosing the mission over the man.",
+      "voice": "speaks in commands and silence, treats men as instruments,",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "black",
+        "hair_color": "white",
+        "age": "68"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "anselm_broussard",
+      "name": "Anselm Broussard",
+      "role": "supporting",
+      "arc": "Accomplice — wants to die with purpose",
+      "voice": "self-deprecating, sharp when intoxicated,",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "grey",
+        "age": "40"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "ayaanle_ibrahim",
+      "name": "Ayaanle Ibrahim",
+      "role": "supporting",
+      "arc": "Accomplice — wants justice for her family —  — Active Arc: In Chapter 7, Ayaanle charts the route through the Somali reefs despite Nemo’s order to hold position, trusting her memory of the currents over his memory of the battle.",
+      "voice": "precise, navigational, reads currents like text,",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "braided",
+        "age": "32"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "lord_percival_thorne",
+      "name": "Lord Percival Thorne",
+      "role": "antagonist",
+      "arc": "Antagonist — wants to preserve the concession",
+      "voice": "polite, bureaucratic,",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "silver",
+        "age": "55"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "the_aletheia",
+      "name": "The Aletheia",
+      "description": "A claustrophobic, copper-smelling iron lung buried in the silt, illuminated only by the bioluminescent pulse of the thermal vents; it smells of ozone and old blood.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "stone_town_zanzibar",
+      "name": "Stone Town, Zanzibar",
+      "description": "A city of carved doors and salt rot, where the heat presses against the skin like a hand and the air tastes of clove and decay.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "pemba_channel",
+      "name": "Pemba Channel",
+      "description": "Open water marked by the white foam of coral heads, where the current pulls with the certainty of fate.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "gulf_of_oman",
+      "name": "Gulf of Oman",
+      "description": "A violent crucible of monsoon winds and black water, where the horizon disappears and only the compass remains.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Nemo surfaces off Zanzibar, recruiting Broussard from the hotel floor using the promise of a clean death.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Ayaanle joins the crew, revealing she knows the slavers’ route before Nemo asks.",
+      "setup_chapter": "ch05",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "The first strike on the dhow near Pemba succeeds, but Nemo finds children among the cargo, fracturing his moral certainty.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch07",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "The British Consul demands Broussard’s head; Broussard realizes he is expendable.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch09",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "The engagement in the Gulf of Oman destroys the fleet but traps the Aletheia; Nemo chooses fire over capture.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch13",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_06",
+      "description": "Ayaanle escapes with the ledger; Nemo remains in the deep, his fortune transferred to her.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "payoff"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Memory as a burden",
+    "the cost of vengeance",
+    "the illusion of sovereignty"
+  ],
+  "voice": "Third-person limited, alternating between Nemo, Broussard, and Ayaanle; past tense; prose that favors the weight of water over the lightness of air, echoing Melville’s moral gravity and Conrad’s psychological depth."
+}

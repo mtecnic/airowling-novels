@@ -1,0 +1,189 @@
+{
+  "characters": [
+    {
+      "id": "wren_elias",
+      "name": "Wren Elias",
+      "role": "protagonist",
+      "arc": "Captain of the *Gilt Coyote*",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "grey",
+        "hair_color": "black",
+        "age": "39"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "cass_denver",
+      "name": "Cass Denver",
+      "role": "supporting",
+      "arc": "Chief Engineer",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "white",
+        "age": "60"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "isetu_of_verd",
+      "name": "Isetu of Verd",
+      "role": "supporting",
+      "arc": "Navigator/Diplomat",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "multifaceted black",
+        "hair_color": "none (translucent scales)",
+        "age": "45"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "rook",
+      "name": "Rook",
+      "role": "supporting",
+      "arc": "Security/Enforcer",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "amber",
+        "hair_color": "thick brown fur",
+        "age": "22"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "karthek",
+      "name": "Karthek",
+      "role": "supporting",
+      "arc": "Vhemma Warlord",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "red",
+        "hair_color": "black fur",
+        "age": "50"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "ilse_verg_enza",
+      "name": "Ilse Vergüenza",
+      "role": "supporting",
+      "arc": "Marshal of Halberd’s Reach",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "grey",
+        "age": "55"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "the_gilt_coyote",
+      "name": "The *Gilt Coyote",
+      "description": "*: A converted gunship with the smell of ozone, stale coffee, and hydraulic fluid; its walls hum with the vibration of the shear-drive.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "halberd_s_reach",
+      "name": "Halberd’s Reach",
+      "description": "A drifting mining town suspended in low gravity, smelling of sulfur and recycled air, where dust coats every surface and neon signs flicker against the void.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_shear_storm",
+      "name": "The Shear-Storm",
+      "description": "A chaotic region of space-time where gravity waves crash like thunder, visible as rippling distortions in the stars, deafening in silence.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "new_ordu",
+      "name": "New Ordu",
+      "description": "A lush, humid colony world, smelling of rain and wet earth, contrasting sharply with the sterile void of space.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Wren accepts the job from the Verghesi merchant, Silas, who pays in unmarked credits and fear.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Rook notices a Vhemma marking on the crate, hinting at its forbidden nature.",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "The *Coyote* is intercepted by Karthek; Rook is forced to stand down, revealing the crate contains a Vhemma ancestral relic.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch06",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Silas reveals he stole the relic to save his people from a plague, not for profit, shifting Wren’s moral stance.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch08",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Ilse Vergüenza arrests the crew, trapping them in Halberd’s Reach while Karthek closes in.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch11",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_06",
+      "description": "Rook duels Karthek under Old Reach Law; Wren must choose whether to intervene or let fate decide.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch13",
+      "kind": "climax"
+    },
+    {
+      "id": "beat_07",
+      "description": "(resolution, ch15) Wren returns to New Ordu, having saved her crew but lost the chance to return to normal life, forever marked by the violence.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Loyalty vs. Duty",
+    "The Weight of History",
+    "Found Family"
+  ],
+  "voice": "Close third, past tense, lean and kinetic, focusing on mechanical detail and immediate sensory input."
+}

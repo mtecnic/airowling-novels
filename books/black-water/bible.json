@@ -1,0 +1,236 @@
+{
+  "characters": [
+    {
+      "id": "don_redman",
+      "name": "Don Redman",
+      "role": "protagonist",
+      "arc": "protagonist",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "gray",
+        "hair_color": "black with gray temples",
+        "age": "42"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "jimmy_dixon",
+      "name": "Jimmy Dixon",
+      "role": "supporting",
+      "arc": "partner",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "black",
+        "age": "34"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "wanda_freeman",
+      "name": "Wanda Freeman",
+      "role": "supporting",
+      "arc": "bartender",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "red",
+        "age": "50"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "lt_mickey_bordelon",
+      "name": "Lt. Mickey Bordelon",
+      "role": "antagonist",
+      "arc": "antagonist",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue",
+        "hair_color": "blonde",
+        "age": "48"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "wade_hollister",
+      "name": "Wade Hollister",
+      "role": "supporting",
+      "arc": "secondary antagonist",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "gray",
+        "age": "55"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "hpd_southeast_substation",
+      "name": "HPD Southeast Substation",
+      "description": "smells of stale coffee and wet wool; fluorescent lights hum with a dying buzz — the bureaucratic heart of the investigation.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "cattlemen_s_steakhouse",
+      "name": "Cattlemen’s Steakhouse",
+      "description": "sounds of clinking glass and low jazz; the air is thick with cigar smoke and expensive perfume — the place where secrets are traded.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "buffalo_bayou",
+      "name": "Buffalo Bayou",
+      "description": "feels oppressive and humid; the water is black and oily, reflecting the city’s neon glow — the site of the discovery and the final confrontation.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "ship_channel",
+      "name": "Ship Channel",
+      "description": "smells of rust and diesel fuel; the cranes loom like skeletal giants against the twilight sky — the industrial artery of Houston’s corruption.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "don_s_apartment",
+      "name": "Don’s Apartment",
+      "description": "feels cramped and lonely; the radiator clanks loudly in the night, echoing the silence of his empty bed — his sanctuary and his prison.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Don identifies Tolbert’s body and notices the missing Rolex and tan line — establishes the murder’s precision.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Don visits the Cattlemen’s booth; Wanda refuses to name the patron, citing fear — introduces the witness and the intimidation.",
+      "setup_chapter": "ch02",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_03",
+      "description": "(ticking clock, ch03) Bordelon assigns Don to mundane traffic duty, effectively sidelining him for 48 hours — the deadline begins.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_04",
+      "description": "Don visits his daughter Cassie; Trent Hollister is there, and Don feels a visceral distrust of the Hollister family — links the personal arc.",
+      "setup_chapter": "ch04",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_05",
+      "description": "Jimmy finds the engraved lighter ‘R.T.’ on a dredging boat during a routine check; Don realizes the victim and the dredger are connected — the twist.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch05",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_06",
+      "description": "Don confronts Bordelon about the lighter; Bordelon threatens Don’s pension and hints at Cassie’s safety — the stakes spike.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch06",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_07",
+      "description": "(escalation, ch07) Don goes rogue, visiting the Ship Channel alone; he is ambushed by Hollister’s men — the physical danger begins.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_08",
+      "description": "(deepening, ch08) Jimmy reveals his pregnancy news to Don, seeking emotional support; Don realizes Jimmy is his only true ally — strengthens the bond.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_09",
+      "description": "(crisis, ch09) Jimmy takes a bullet meant for Don during the ambush; Don escapes but Jimmy is hospitalized — the cost of defiance.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_10",
+      "description": "(investigation, ch10) Don returns to the Cattlemen’s, threatening Wanda to speak; she reveals Amber Salazar was also on the boat — connects the cold case.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_11",
+      "description": "(breakthrough, ch11) Wanda gives Don the location of the ledger in the freezer; Don retrieves it, confirming Hollister’s guilt — the evidence is secured.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_12",
+      "description": "(confrontation, ch12) Wade Hollister tries to bribe Don at his home; Don refuses and arrests Wade on the spot — the climax of the personal arc.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_13",
+      "description": "(resolution, ch13) Bordelon is arrested based on the ledger’s financial trails; Don visits Jimmy in the hospital — the institutional defeat.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_14",
+      "description": "(aftermath, ch14) Don tells Cassie about Trent’s father’s arrest; Cassie leaves, heartbroken but understanding — the irrevocable loss.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_15",
+      "description": "(ending, ch15) Rita gives birth; Don watches the sunrise over the channel, the case closed but the city unchanged — the thematic conclusion.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "corruption",
+    "paternal protection",
+    "institutional betrayal"
+  ],
+  "voice": "close third, gritty and procedural, grounded in sensory detail and dry, understated humor."
+}
