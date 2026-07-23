@@ -1,0 +1,182 @@
+{
+  "characters": [
+    {
+      "id": "walter_wally_bellamy",
+      "name": "Walter \"Wally\" Bellamy",
+      "role": "protagonist",
+      "arc": "protagonist",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "blue-gray",
+        "hair_color": "thinning white",
+        "age": "61"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "danny_bellamy",
+      "name": "Danny Bellamy",
+      "role": "supporting",
+      "arc": "son",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "dark brown, short",
+        "age": "34"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "reverend_dean_miller",
+      "name": "Reverend Dean Miller",
+      "role": "supporting",
+      "arc": "brother-in-law",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "hazel",
+        "hair_color": "gray, receding",
+        "age": "58"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "ruth_hollister",
+      "name": "Ruth Hollister",
+      "role": "supporting",
+      "arc": "widow",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "green",
+        "hair_color": "white, pinned back",
+        "age": "84"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "john_hollister",
+      "name": "John Hollister",
+      "role": "supporting",
+      "arc": "stepson of Ruth, the killer",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "brown",
+        "hair_color": "blond, greying",
+        "age": "45"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    },
+    {
+      "id": "salvador",
+      "name": "Salvador",
+      "role": "supporting",
+      "arc": "coonhound",
+      "voice": "",
+      "appearance": "",
+      "relationships": {},
+      "initial_state": {
+        "eye_color": "amber",
+        "hair_color": "black and tan",
+        "age": "12"
+      },
+      "secrets": [],
+      "alive_until_chapter": null
+    }
+  ],
+  "settings": [
+    {
+      "id": "bellamy_salvage_yard",
+      "name": "Bellamy Salvage Yard",
+      "description": "A sprawling lot of rusted metal and silence, smelling of ozone and wet iron, where the Ohio River fog settles thick against the chain-link fence.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "first_presbyterian_church_parsonage",
+      "name": "First Presbyterian Church Parsonage",
+      "description": "A drafty Victorian house with peeling paint, smelling of stale coffee and lemon polish, where shadows stretch long across the hardwood floors.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "ruth_hollister_s_apartment",
+      "name": "Ruth Hollister’s Apartment",
+      "description": "A cramped second-floor flat in Weirton, cluttered with card tables and empty pill bottles, smelling of mothballs and burnt toast.",
+      "sensory": {},
+      "rules": []
+    },
+    {
+      "id": "the_ohio_river_bank",
+      "name": "The Ohio River Bank",
+      "description": "A muddy, sludge-stained edge of water, smelling of diesel and decay, where barges move slowly like sleeping beasts.",
+      "sensory": {},
+      "rules": []
+    }
+  ],
+  "plot_points": [
+    {
+      "id": "beat_01",
+      "description": "Wally finds the dented brass jewelry box in the crusher feed; he pulls it out just before the blades engage, recognizing the initials \"JB → EL\".",
+      "setup_chapter": "ch03",
+      "payoff_chapter": "ch15",
+      "kind": "setup"
+    },
+    {
+      "id": "beat_02",
+      "description": "Danny arrests a local man for DUI, refusing to let him go despite the man’s connection to the Sheriff’s donor list, showing Danny’s rigid integrity.",
+      "setup_chapter": "ch05",
+      "payoff_chapter": "ch15",
+      "kind": "foreshadow"
+    },
+    {
+      "id": "beat_03",
+      "description": "Wally meets Ruth Hollister; she reveals her husband bought the box in 1988 from a man who claimed it was \"junk,\" but Ruth suspects otherwise.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch08",
+      "kind": "midpoint"
+    },
+    {
+      "id": "beat_04",
+      "description": "Wally realizes the \"boyfriend\" Janine mentioned was John Hollister, Ruth’s stepson, not a stranger; the killer is within the community, not a transient trucker.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch10",
+      "kind": "reversal"
+    },
+    {
+      "id": "beat_05",
+      "description": "Salvador dies in the yard office; Wally breaks down, realizing his investigation was a way to avoid grieving Eileen, and now he must face both losses.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch12",
+      "kind": "payoff"
+    },
+    {
+      "id": "beat_06",
+      "description": "Wally confronts Dean in the parsonage; Dean admits he knew John killed Janine but stayed silent to protect his marriage and the church’s stability.",
+      "setup_chapter": "ch01",
+      "payoff_chapter": "ch14",
+      "kind": "climax"
+    }
+  ],
+  "magic_system": null,
+  "glossary": {},
+  "themes": [
+    "Grief as labor",
+    "the cost of silence",
+    "community complicity"
+  ],
+  "voice": "Third-person limited, past tense, restrained and tactile, focusing on the physical weight of objects and the quiet erosion of time."
+}
